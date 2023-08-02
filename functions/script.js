@@ -5,7 +5,7 @@ function subTwoAndAlert (num1, num2){
 
     alert(difference)
 }
- //subTwoAndAlert (10,7)
+ subTwoAndAlert (10,7)
 
 
 //create a function that divides three numbers and console logs the quotient
@@ -13,15 +13,15 @@ function divideThreeAndLog (n1, n2, n3){
     console.log(n1 / n2 / n3)
 }
 
-//divideThreeAndLog(12, 4, 3)
+divideThreeAndLog(12, 4, 3)
 
 //create a function that multiplys three numbers and returns the product
 function multiThreeAndReturn( robot, unicorn, attack){
     let product = robot * unicorn * attack
     return product
 }
-//let returnedVal = multiThreeAndReturn(2,3,5)
-//console.log(returnedVal)
+let returnedVal = multiThreeAndReturn(2,3,5)
+console.log(returnedVal)
 
 
 
@@ -33,7 +33,7 @@ function sumAndDivide (n1, n2, n3){
     return ( n1 + n2) % n3
 }
 
-//const sumAndDivide = (a,b,c) 
+const sumAndDivide = (a,b,c) 
 
 
 
@@ -53,3 +53,5 @@ function mathOut (n1, n2, n3, n4){
         alert( (n1*n2*n3)% n4)
     }
 }
+
+mathOut ( 5,4,3,2)
