@@ -10,8 +10,8 @@ console.log(num)
 
 //-- Medium
 //create a variable that holds value from the input
-let numFormInput= document.querySelector('input').value
-
+let numFromInput= Number (document.querySelector('input').value)
+//Number is a build in object
 
 //add 25 to that number
 numFromInput += 25 //numForInput = numFromInput + 25
@@ -26,6 +26,6 @@ const h1= document.querySelector('h1')
 //add an event listener to that element that console logs the sum of the two previous variables
 h1.addEventListener('click', addTwoNums) 
 
-function addTWONums() {
-    console.log(num+ numFromInput)
+function addTwoNums() {
+    console.log(num + numFromInput)
 }
