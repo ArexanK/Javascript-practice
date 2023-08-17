@@ -4,7 +4,7 @@
 document.querySelector('h1').addEventListener('click', cToF)
 
 
-
+// thid wil run as a click function that we made above 
 function cToF(){
     //need the value in c
     let temp = Number(document.querySelector('input').value)
