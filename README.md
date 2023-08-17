@@ -1,5 +1,21 @@
 # Javascript-practice
 
+Funtions
+
+
+
+Variables
+
+
+
+Loops
+
+
+Conditionals
+
+
+
+
 Arrays
 
 - A data structure to store orderd collections
